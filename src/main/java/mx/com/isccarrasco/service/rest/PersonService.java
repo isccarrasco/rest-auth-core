@@ -46,7 +46,7 @@ public class PersonService {
     @POST
     @Consumes({ MediaType.APPLICATION_JSON })
     @Produces({ MediaType.APPLICATION_JSON })
-    public Response insert(Person person) {
+    public Response insert(@Context SecurityContext sc, Person person) {
 
         if (person == null) {
             return Response.status(Response.Status.UNSUPPORTED_MEDIA_TYPE)
