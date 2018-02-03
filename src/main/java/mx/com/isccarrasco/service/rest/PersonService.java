@@ -31,6 +31,10 @@ public class PersonService {
         persons.add(new Person("Alicia", 23, "mx"));
         persons.add(new Person("Carmen", 23, "mx"));
 
+        persons.add(new Person("Jail", 23, "mx"));
+        persons.add(new Person("Leo", 23, "mx"));
+        persons.add(new Person("Mario", 23, "mx"));
+        persons.add(new Person("Loyda-Gatita", 23, "mx"));
     }
 
     @GET
